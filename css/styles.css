@@ -27,7 +27,7 @@ input[type="checkbox"]:checked:before {
 	background-color: #fff;
 }
 input[type="checkbox"]:checked ~ * {
-	filter: invert(1);
+	filter: invert(1) hue-rotate(180deg);
 }
 section {
 	position: absolute;
