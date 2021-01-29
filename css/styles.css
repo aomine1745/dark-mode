@@ -29,6 +29,9 @@ input[type="checkbox"]:checked:before {
 input[type="checkbox"]:checked ~ section {
 	filter: invert(1) hue-rotate(180deg);
 }
+input[type="checkbox"]:checked ~ section img {
+	filter: invert(1) hue-rotate(180deg);
+}
 section {
 	position: absolute;
 	top: 0;
@@ -36,9 +39,9 @@ section {
 	background-color: #fff;
 	min-height: 100vh;
 	padding: 80px 100px;
+	transition: 0.5s;
 }
 section img {
 	float: left;
 	margin: 10px 20px 10px 0;
-	filter: inherit;
 }
