@@ -39,7 +39,6 @@ section {
 	background-color: #fff;
 	min-height: 100vh;
 	padding: 80px 100px;
-	transition: 0.5s;
 }
 section img {
 	float: left;
